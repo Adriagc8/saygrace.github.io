@@ -1,0 +1,65 @@
+.nav{
+    min-height: 85px;
+}
+.home-btn{
+    margin-top: -10px;
+    background-color:black !important;
+    border: 2px solid #ca9e2a !important;
+    color: #ca9e2a !important;
+    /* padding: 10px 30px !important; */
+}
+.home-logo{
+    position:absolute;
+    width:75px;
+    min-height: 80px;
+    z-index:3;
+}
+/* .featured-artist{
+    max-height: 400px;
+}
+
+div.image{
+    max-height: 100%;
+}
+@media(max-width:1200px) and (min-width:992px){
+    div.image{
+        max-height: 300px;
+    }
+} */
+.home-social{
+    margin-top: 120px;
+}
+.videolirikscont{
+    justify-content: center;
+    display: flex;
+}
+html, body{
+    overflow-x: hidden;
+}
+
+.adri-center{
+    display: flex;
+    justify-content: center;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+}
+.featured-artists .gallery-cell{
+    padding-left: 2px !important;
+    padding-right: 2px !important;
+}
+
+@media(min-width:1200px){
+    .flickity-page-dots{
+        display: none !important;
+    }
+}
+
+.item-center{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
